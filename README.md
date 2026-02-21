@@ -64,8 +64,8 @@ A modern, feature-rich Android application for managing your daily tasks with bu
 
 1. **Clone the repository**:
    ```bash
-   git clone [https://github.com/yourusername/tdo.git](https://github.com/OmarAhmed770/Tdo-Task-Management-Android-App.git)
-   cd tdo
+   git clone https://github.com/OmarAhmed770/Tdo-Task-Management-Android-App.git
+   cd Tdo-Task-Management-Android-App
    ```
 
 2. **Open in Android Studio**:
