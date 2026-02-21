@@ -1,0 +1,68 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/background"> <!-- Replace with your actual background resource -->
+
+    <!-- Task Input -->
+    <EditText
+        android:id="@+id/task_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter task description"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_save_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_gravity="center" />
+
+    <!-- Task List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/task_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="24sp" />
+
+    <!-- Timer Input -->
+    <EditText
+        android:id="@+id/time_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Enter time (minutes)"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Timer Controls -->
+    <TextView
+        android:id="@+id/timer_display"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time Remaining: 00:00"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_start_pause_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Timer"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/btn_reset_timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Timer"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp" />
+</LinearLayout>

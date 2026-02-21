@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1057565566221",
+    "project_id": "tdoapp-d2dac",
+    "storage_bucket": "tdoapp-d2dac.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057565566221:android:9f1a29bbb26ddb215dfc44",
+        "android_client_info": {
+          "package_name": "com.example.tdo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAy6SIBQHFet2WtQtiisWPUncelcCnBIiw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
