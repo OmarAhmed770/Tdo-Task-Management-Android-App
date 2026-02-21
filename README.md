@@ -64,7 +64,7 @@ A modern, feature-rich Android application for managing your daily tasks with bu
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/tdo.git
+   git clone [https://github.com/yourusername/tdo.git](https://github.com/OmarAhmed770/Tdo-Task-Management-Android-App.git)
    cd tdo
    ```
 
@@ -172,7 +172,7 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👤 Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@OmarAhmed770](https://github.com/OmarAhmed770)
 
 ## 🙏 Acknowledgments
 
